@@ -1,0 +1,123 @@
+
+
+/* Navigation Left
+.layout-desktop .headerLeft, .layout-tv .headerLeft {
+    width: none;
+    max-width: 120pt !important;
+    background: #0a0418b5;
+}*/
+
+/* Navigation Right
+.layout-desktop .headerRight, .layout-tv .headerRight {
+    background: #0a041800 !important;
+    color: #000 !important;
+    max-width: none !important;
+    width: auto;
+}*/
+
+/* Navigation Tab
+.headerTabs {
+  display: none !important;
+}
+*/
+
+/* remove My Media title */
+.section0 .sectionTitle {
+  display: none;
+}
+
+/* Fix for remaining Episodes color*/
+.countIndicator, .playedIndicator {
+    background: #3a77ff;
+    color: ##ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 0px var(--rounding) !important;
+    box-shadow: -1px 1px 4px 0 rgba(0,0,0,0.3);
+}
+
+.cardIndicators,
+.listItemIndicators {
+  right: 0 !important;
+  top: 0 !important;
+}
+
+
+/* Change Logo to uTube */
+.pageTitleWithDefaultLogo {
+  background-image: url(https://denu.eu/uTube.svg);
+}
+
+.splashLogo {
+	background-image: url(https://denu.eu/uTube.png);
+}
+
+#slides-container {
+  position: relative;
+  width: 100% !important;
+  height: 72% !important;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+/* WIP */
+.play-button,
+.detail-button {
+    background: rgba(0, 0, 0, 0.35) !important;
+    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
+    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
+    border: solid 1px rgba(var(--accent),0) !important;
+    color: white;
+    border-radius: 0.5em !important
+}
+
+.play-button:hover,
+.detail-button:hover {
+    background: rgb(255, 255, 255) !important;
+    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
+    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
+    border: solid 1px rgba(var(--accent),0) !important;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 0.5em !important
+}
+
+.favorite-button {
+    background: rgba(0, 0, 0, 0.35) !important;
+    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
+    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
+    border: solid 1px rgba(var(--accent),0) !important;
+    color: white;
+    border-radius: 0.5em !important
+}
+
+.favorite-button:hover {
+    background: rgb(255, 255, 255) !important;
+    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
+    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
+    border: solid 1px rgba(var(--accent),0) !important;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 0.5em !important
+}
+
+/* FONT CHANGE FOR MEDIABAR */
+.runTime {
+  font-family: 'Sofia Sans', sans-serif !important;
+}
+
+.rating-value {
+  font-family: 'Sofia Sans', sans-serif !important;
+}
+
+.genre {
+  font-family: 'Sofia Sans', sans-serif !important;
+}
+
+.date {
+  font-family: 'Sofia Sans', sans-serif !important;
+}
+
+/*Hide the "Trailers" tab in Movies*/
+.mainDrawer:has(.navMenuOption-selected[href^="#/movies.html"]) + .skinHeader .emby-tab-button[data-index="2"] {
+display: none !important;
+}
