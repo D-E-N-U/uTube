@@ -21,11 +21,11 @@
 
 /* Change Logo to uTube */
 .pageTitleWithDefaultLogo {
-  background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.svg);
+  background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.svg);
 }
 
 .splashLogo {
-  background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.png);
 }
 
 #slides-container {
@@ -114,3 +114,4 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
 .pluginMenuOptions {
     display: none;
 } */
+
