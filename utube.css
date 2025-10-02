@@ -1,27 +1,4 @@
-
-
-/* Navigation Left
-.layout-desktop .headerLeft, .layout-tv .headerLeft {
-    width: none;
-    max-width: 120pt !important;
-    background: #0a0418b5;
-}*/
-
-/* Navigation Right
-.layout-desktop .headerRight, .layout-tv .headerRight {
-    background: #0a041800 !important;
-    color: #000 !important;
-    max-width: none !important;
-    width: auto;
-}*/
-
-/* Navigation Tab
-.headerTabs {
-  display: none !important;
-}
-*/
-
-/* remove My Media title */
+/* Hide "My Media" Section Title  */
 .section0 .sectionTitle {
   display: none;
 }
@@ -45,11 +22,11 @@
 
 /* Change Logo to uTube */
 .pageTitleWithDefaultLogo {
-  background-image: url(https://denu.eu/uTube.svg);
+  background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.svg);
 }
 
 .splashLogo {
-	background-image: url(https://denu.eu/uTube.png);
+	background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.png);
 }
 
 #slides-container {
@@ -61,7 +38,7 @@
 }
 
 
-/* WIP */
+/* Butification for Mediabar Plugin Buttons*/
 .play-button,
 .detail-button {
     background: rgba(0, 0, 0, 0.35) !important;
@@ -123,7 +100,7 @@ display: none !important;
 
 }
 
-/*New Stuff WIP*/
+/*Move Genre-Tags to Bottom Left*/
 .genre-tag {
     border-radius: 4px !important;
 }
@@ -143,12 +120,7 @@ display: none !important;
 .quality-overlay-label.video-codec,
 .quality-overlay-label.audio-codec{ display: none !important; }
 
-
-  /* Hide Jellyfin Enhanced in Sidebar
-.pluginMenuOptions {
-    display: none;
-} */
-
+/*Reduce Space betwen Ratings*/
 .layout-desktop .mediaInfoItem, .layout-tv .mediaInfoItem {
     margin-top: 0.2em !important;
     margin-right: 1.0vw;
@@ -163,3 +135,10 @@ body:has(#loginPage:not(.hide)) .skinHeader {
 body:not(:has(#loginPage:not(.hide))) .skinHeader {
     display: flex !important;
 }
+
+/* Disabled CSS, not used or currently unwanted*/
+
+  /* Hide Jellyfin Enhanced in Sidebar
+.pluginMenuOptions {
+    display: none;
+} */
