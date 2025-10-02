@@ -1,16 +1,16 @@
-/* Hide "My Media" Section Title  */
+/* Hide "My Media" Section Title */
 .section0 .sectionTitle {
   display: none;
 }
 
-/* Fix for remaining Episodes color*/
+/* Fix for remaining Episodes color */
 .countIndicator, .playedIndicator {
-    background: #3a77ff;
-    color: ##ffffff;
-    font-size: 15px;
-    font-weight: bolder;
-    border-radius: 0px var(--rounding) !important;
-    box-shadow: -1px 1px 4px 0 rgba(0,0,0,0.3);
+  background: #3a77ff;
+  color: #ffffff; /* Fixed double hash */
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 0px var(--rounding) !important;
+  box-shadow: -1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .cardIndicators,
@@ -19,14 +19,13 @@
   top: 0 !important;
 }
 
-
 /* Change Logo to uTube */
 .pageTitleWithDefaultLogo {
   background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.svg);
 }
 
 .splashLogo {
-	background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.png);
+  background-image: url(https://raw.githack.com/D-E-N-U/uTube/refs/heads/main/uTube.png);
 }
 
 #slides-container {
@@ -37,108 +36,81 @@
   margin: 0 auto;
 }
 
-
-/* Butification for Mediabar Plugin Buttons*/
+/* Beautification for Mediabar Plugin Buttons */
 .play-button,
-.detail-button {
-    background: rgba(0, 0, 0, 0.35) !important;
-    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
-    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
-    border: solid 1px rgba(var(--accent),0) !important;
-    color: white;
-    border-radius: 0.5em !important
+.detail-button,
+.favorite-button {
+  background: rgba(0, 0, 0, 0.35) !important;
+  filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
+  box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
+  border: solid 1px rgba(var(--accent), 0) !important;
+  color: white;
+  border-radius: 0.5em !important;
 }
 
 .play-button:hover,
-.detail-button:hover {
-    background: rgb(255, 255, 255) !important;
-    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
-    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
-    border: solid 1px rgba(var(--accent),0) !important;
-    color: rgb(0, 0, 0) !important;
-    border-radius: 0.5em !important
-}
-
-.favorite-button {
-    background: rgba(0, 0, 0, 0.35) !important;
-    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
-    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
-    border: solid 1px rgba(var(--accent),0) !important;
-    color: white;
-    border-radius: 0.5em !important
-}
-
+.detail-button:hover,
 .favorite-button:hover {
-    background: rgb(255, 255, 255) !important;
-    filter: drop-shadow(0 0 1px rgba(2, 2, 2, 0.75));
-    box-shadow: 0px 0px 5px rgba(var(--accent), 0) !important;
-    border: solid 1px rgba(var(--accent),0) !important;
-    color: rgb(0, 0, 0) !important;
-    border-radius: 0.5em !important
+  background: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
-/* FONT CHANGE FOR MEDIABAR */
-.runTime {
-  font-family: 'Sofia Sans', sans-serif !important;
-}
-
-.rating-value {
-  font-family: 'Sofia Sans', sans-serif !important;
-}
-
-.genre {
-  font-family: 'Sofia Sans', sans-serif !important;
-}
-
+/* Font Change for Mediabar */
+.runTime,
+.rating-value,
+.genre,
 .date {
   font-family: 'Sofia Sans', sans-serif !important;
 }
 
-/*Hide the "Trailers" tab in Movies*/
+/* Hide the "Trailers" tab in Movies */
 .mainDrawer:has(.navMenuOption-selected[href^="#/movies.html"]) + .skinHeader .emby-tab-button[data-index="2"] {
-display: none !important;
-
+  display: none !important;
 }
 
-/*Move Genre-Tags to Bottom Left*/
+/* Move Genre-Tags to Bottom Left */
 .genre-tag {
-    border-radius: 4px !important;
+  border-radius: 4px !important;
 }
+
 .card:hover .genre-tag {
-    border-radius: 4px !important;
+  border-radius: 4px !important;
 }
 
 .genre-overlay-container {
-    bottom: 6px !important;
-    left: 6px !important;
-    top: auto !important;
-    right: auto !important;
-    align-items: flex-start !important;
+  bottom: 6px !important;
+  left: 6px !important;
+  top: auto !important;
+  right: auto !important;
+  align-items: flex-start !important;
 }
 
-  /* Only show resolution tags */
+/* Only show resolution tags */
 .quality-overlay-label.video-codec,
-.quality-overlay-label.audio-codec{ display: none !important; }
-
-/*Reduce Space betwen Ratings*/
-.layout-desktop .mediaInfoItem, .layout-tv .mediaInfoItem {
-    margin-top: 0.2em !important;
-    margin-right: 1.0vw;
+.quality-overlay-label.audio-codec {
+  display: none !important;
 }
 
-/*Hide the top bar when the login page is visible*/
+/* Reduce Space between Ratings */
+.layout-desktop .mediaInfoItem,
+.layout-tv .mediaInfoItem {
+  margin-top: 0.2em !important;
+  margin-right: 1.0vw;
+}
+
+/* Hide the top bar when the login page is visible */
 body:has(#loginPage:not(.hide)) .skinHeader {
-    display: none !important;
+  display: none !important;
 }
 
-/*Show the top bar when the login page is hidden or absent*/
+/* Show the top bar when the login page is hidden or absent */
 body:not(:has(#loginPage:not(.hide))) .skinHeader {
-    display: flex !important;
+  display: flex !important;
 }
 
-/* Disabled CSS, not used or currently unwanted*/
+/* Disabled CSS, not used or currently unwanted */
 
-  /* Hide Jellyfin Enhanced in Sidebar
+/* Hide Jellyfin Enhanced in Sidebar
 .pluginMenuOptions {
     display: none;
 } */
