@@ -3,12 +3,6 @@
   display: none;
 }
 
-.cardIndicators,
-.listItemIndicators {
-  right: 0 !important;
-  top: 0 !important;
-}
-
 /* Mediabar*/
 #slides-container {
     width: calc(100vw - (2 * var(--sidePadding)));
