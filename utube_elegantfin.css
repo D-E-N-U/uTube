@@ -9,7 +9,7 @@
   top: 0 !important;
 }
 
-/* Mediabar Padding Bottom*/
+/* Mediabar*/
 #slides-container {
     width: calc(100vw - (2 * var(--sidePadding)));
     height: 60%;
