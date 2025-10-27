@@ -1,0 +1,100 @@
+/* Hide "My Media" Section Title */
+.section0 .sectionTitle {
+  display: none;
+}
+
+.cardIndicators,
+.listItemIndicators {
+  right: 0 !important;
+  top: 0 !important;
+}
+
+/* Change Logo to uTube */
+.pageTitleWithDefaultLogo {
+  background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.svg);
+}
+
+.splashLogo {
+  background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.png);
+}
+
+/* Hide the "Trailers" tab in Movies */
+.mainDrawer:has(.navMenuOption-selected[href^="#/movies.html"]) + .skinHeader .emby-tab-button[data-index="2"] {
+  display: none !important;
+}
+
+/* Move Genre-Tags to Bottom Left */
+.genre-tag {
+  border-radius: 4px !important;
+}
+
+.card:hover .genre-tag {
+  border-radius: 4px !important;
+}
+
+.genre-overlay-container {
+  bottom: 6px !important;
+  left: 6px !important;
+  top: auto !important;
+  right: auto !important;
+  align-items: flex-start !important;
+}
+
+/* Only show resolution tags */
+.quality-overlay-label.video-codec,
+.quality-overlay-label.audio-codec {
+  display: none !important;
+}
+
+/* Reduce Space between Ratings */
+.layout-desktop .mediaInfoItem,
+.layout-tv .mediaInfoItem {
+  margin-top: 0.2em !important;
+  margin-right: 1.0vw;
+}
+
+
+/* Hide the top bar when the login page is visible */
+body:has(#loginPage:not(.hide)) .skinHeader {
+  display: none !important;
+}
+
+/* Show the top bar when the login page is hidden or absent */
+body:not(:has(#loginPage:not(.hide))) .skinHeader {
+  display: flex !important;
+}
+
+/* Hide Jellyseerr Icon on Poster */
+.jellyseerr-icon-on-card {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 18%;
+    height: auto;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.8));
+    display: none;
+}
+
+/* Hide Jellyseerr Logo on Search Bar */
+#jellyseerr-search-icon {
+    position: absolute;
+    right: 10px;
+    top: 68%;
+    transform: translateY(-50%);
+    user-select: none;
+    z-index: 10;
+    transition: filter .2s, opacity .2s, transform .2s;
+    display: none;
+}
+
+
+/* Disabled CSS, not used or currently unwanted */
+
+/* Hide Jellyfin Enhanced in Sidebar
+.pluginMenuOptions {
+    display: none;
+} */
+
+
+
