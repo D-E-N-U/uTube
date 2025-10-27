@@ -93,6 +93,16 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
     display: none;
 }
 
+/* Elegantfin Enhancments */
+
+:root{
+  --extraCardButtonsVisibility: block;
+}
+
+:root{
+  --overlayPlayButtonPosition: 50%;
+}
+
 
 /* Disabled CSS, not used or currently unwanted */
 
