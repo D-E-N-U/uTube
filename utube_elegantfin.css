@@ -9,6 +9,17 @@
   top: 0 !important;
 }
 
+/* Mediabar Padding Bottom*/
+#slides-container {
+    width: calc(100vw - (2 * var(--sidePadding)));
+    height: 60%;
+    top: 3em;
+    border: var(--defaultBorder);
+    border-radius: var(--largerRadius);
+    transition: all .125s,border 0s;
+    user-select: none
+}
+
 /* Change Logo to uTube */
 .pageTitleWithDefaultLogo {
   background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.svg);
