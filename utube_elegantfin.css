@@ -37,14 +37,6 @@
   border-radius: 4px !important;
 }
 
-.genre-overlay-container {
-  bottom: 6px !important;
-  left: 6px !important;
-  top: auto !important;
-  right: auto !important;
-  align-items: flex-start !important;
-}
-
 /* Only show resolution tags */
 .quality-overlay-label.video-codec,
 .quality-overlay-label.audio-codec {
