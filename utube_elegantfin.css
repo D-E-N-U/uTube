@@ -33,6 +33,14 @@
   border-radius: 4px !important;
 }
 
+.genre-overlay-container {
+  bottom: auto !important;
+  left: 6px !important;
+  top: 6px !important;
+  right: auto !important;
+  align-items: flex-start !important;
+}
+
 .card:hover .genre-tag {
   border-radius: 4px !important;
 }
