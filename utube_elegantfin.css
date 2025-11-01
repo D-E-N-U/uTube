@@ -104,12 +104,14 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
 }
 
 
-/* Disabled CSS, not used or currently unwanted */
-
-/* Hide Jellyfin Enhanced in Sidebar
+/* Hide Jellyfin Enhanced in Sidebar */
 .pluginMenuOptions {
     display: none;
-} */
+} 
+
+/* Disabled CSS, not used or currently unwanted */
+
+
 
 
 
