@@ -18,8 +18,11 @@
 .runTime,
 .rating-value,
 .genre,
+.play-button,
+.rating-value,
+.runTime,
 .date {
-  font-family: 'Sofia Sans', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 /* Change Logo to uTube */
