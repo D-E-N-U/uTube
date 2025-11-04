@@ -45,29 +45,6 @@
   display: none !important;
 }
 
-/* Move Genre-Tags to Bottom Left */
-.genre-tag {
-  border-radius: 4px !important;
-}
-
-.genre-overlay-container {
-  bottom: auto !important;
-  left: 6px !important;
-  top: 6px !important;
-  right: auto !important;
-  align-items: flex-start !important;
-}
-
-.card:hover .genre-tag {
-  border-radius: 4px !important;
-}
-
-/* Only show resolution tags */
-.quality-overlay-label.video-codec,
-.quality-overlay-label.audio-codec {
-  display: none !important;
-}
-
 /* Reduce Space between Ratings */
 .layout-desktop .mediaInfoItem,
 .layout-tv .mediaInfoItem {
