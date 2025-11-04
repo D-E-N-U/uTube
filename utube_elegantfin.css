@@ -3,6 +3,11 @@
   display: none;
 }
 
+/* Center Media Libraries */
+.vertical-wrap:not(.centered) {
+    justify-content: space-evenly !important;
+}
+
 /* Mediabar*/
 #slides-container {
     width: calc(100vw - (2 * var(--sidePadding)));
