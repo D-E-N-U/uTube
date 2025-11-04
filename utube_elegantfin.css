@@ -19,7 +19,7 @@
     user-select: none
 }
 
-/* Font Change for Mediabar
+/* Font Change for Mediabar*/
 .runTime,
 .rating-value,
 .genre,
@@ -29,7 +29,7 @@
 .date {
   font-family: 'Roboto', sans-serif !important;
 }
-*/
+
 
 /* Change Logo to uTube */
 .pageTitleWithDefaultLogo {
