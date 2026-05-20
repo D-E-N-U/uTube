@@ -12,7 +12,7 @@
 #slides-container {
     width: calc(100vw - (2 * var(--sidePadding)));
     height: 60%;
-    top: 3em;
+    top: 6em;
     border: var(--defaultBorder);
     border-radius: var(--largerRadius);
     transition: all .125s,border 0s;
@@ -98,14 +98,12 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
 }
 
 
-/* Hide Jellyfin Enhanced in Sidebar */
+/* Disabled CSS, not used or currently unwanted */
+
+/* Hide Jellyfin Enhanced in Sidebar 
 .pluginMenuOptions {
     display: none;
 } 
-
-/* Disabled CSS, not used or currently unwanted */
-
-
-
+*/
 
 
