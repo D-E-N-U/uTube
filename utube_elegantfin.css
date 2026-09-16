@@ -44,6 +44,10 @@
 /* Change Logo to uTube (Legacy-Header + Splash) */
 .pageTitleWithDefaultLogo {
   background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.svg) !important;
+  /* Theme blendet .pageTitle aus -> Logo sichtbar erzwingen */
+  display: inline-flex !important;
+  width: 13.2em !important;
+  height: 1.7em !important;
 }
 
 .splashLogo {
