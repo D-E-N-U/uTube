@@ -42,7 +42,10 @@
 }
 
 /* Change Logo to uTube (Legacy-Header + Splash) */
-.pageTitleWithDefaultLogo,
+.pageTitleWithDefaultLogo {
+  background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube.svg) !important;
+}
+
 .splashLogo {
   background-image: url(https://cdn.jsdelivr.net/gh/D-E-N-U/uTube@refs/heads/main/uTube_logo.svg) !important;
 }
